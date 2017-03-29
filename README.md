@@ -7,9 +7,9 @@
 * [jQuery](http://jquery.com/) version 3.2.1
 * [Tether](http://tether.io/) version 1.4.0
 
-##TL;DR - The Working Parts
+## TL;DR - The Working Parts
 
-#####app.component.html
+##### app.component.html
 ```language-html
 <a (click)="skipLink()" 
    href 
@@ -25,7 +25,7 @@
 </div>
 ```
 
-#####app.component.ts
+##### app.component.ts
 ```language-typescript
 import { Component, ViewChild, ElementRef, Renderer, OnInit } from '@angular/core';
 
